@@ -1,4 +1,4 @@
-const publicVapidKey = 'PUBLIC_VAPID_KEY';
+const publicVapidKey = 'BMboslBz_1vDBoJQ3q2WaFTECODwk5truGvoCcbsawf1MjPVhZVtfOc28Mjx6_8OcZNbkk-lg6PjeLKtkzYNrpg';
 
 // 페이지 로드 시 서비스 워커 등록 및 초기 상태 확인
 window.addEventListener('load', () => {
