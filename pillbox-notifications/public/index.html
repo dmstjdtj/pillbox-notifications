@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>약통 알람</title>
+    <title>약통 알람 구독</title>
+    <style>
+        #subscribe-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        #subscribe-btn.subscribed {
+            background-color: #d9534f;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <h1>푸시 알림 테스트</h1>
+    <h1>약통 알람 구독 관리</h1>
+    <button id="subscribe-btn" onclick="toggleSubscription()">구독하기</button>
+
     <script src="app.js"></script>
 </body>
 </html>
