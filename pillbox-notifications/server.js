@@ -2,10 +2,11 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const webPush = require('web-push');
 const path = require('path');
-
+const cors = require('cors');  // CORS 미들웨어 추가
 const app = express();
 const port = 3002;
 
+app.use(cors());  // 모든 요청을 허용하는 CORS 설정
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
