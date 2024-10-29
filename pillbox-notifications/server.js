@@ -17,12 +17,14 @@ webPush.setVapidDetails(
 
 let subscriptions = [];
 
+// 구독 요청 처리
 app.post('/subscribe', (req, res) => {
     const subscription = req.body;
     subscriptions.push(subscription);
     res.status(201).json({ message: '구독이 성공적으로 추가되었습니다.' });
 });
 
+// 알림 전송
 app.post('/send-notification', (req, res) => {
     const message = req.body;
     const payload = JSON.stringify({ title: '약통 알람', body: message });
