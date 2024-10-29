@@ -11,8 +11,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 webPush.setVapidDetails(
     'mailto:your-email@example.com',
-    'PUBLIC_VAPID_KEY', // 공개 VAPID 키
-    'PRIVATE_VAPID_KEY' // 개인 VAPID 키
+    'BMboslBz_1vDBoJQ3q2WaFTECODwk5truGvoCcbsawf1MjPVhZVtfOc28Mjx6_8OcZNbkk-lg6PjeLKtkzYNrpg', // 공개 VAPID 키
+    'EYd5EZ96quzp0LEDQJef8vW9fKLNghfdfw5GOdOmb80' // 개인 VAPID 키
 );
 
 let subscriptions = [];
