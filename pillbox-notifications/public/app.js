@@ -1,4 +1,4 @@
-const publicVapidKey = 'PUBLIC_VAPID_KEY';
+const publicVapidKey = 'BMboslBz_1vDBoJQ3q2WaFTECODwk5truGvoCcbsawf1MjPVhZVtfOc28Mjx6_8OcZNbkk-lg6PjeLKtkzYNrpg';
 
 if ('serviceWorker' in navigator) {
     registerServiceWorkerAndSubscribe().catch(console.error);
